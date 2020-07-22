@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu&display=swap');
+body {
+  background-color: #fafafa;
+  color: rgba(38, 38, 38, 0.7);
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?c1hxws');
+  src:  url('/fonts/icomoon.eot?c1hxws#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?c1hxws') format('truetype'),
+    url('/fonts/icomoon.woff?c1hxws') format('woff'),
+    url('/fonts/icomoon.svg?c1hxws#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram1:before {
+  content: "\e904";
+  color: #e33b60;
+}
+.icon-gmail:before {
+  content: "\e903";
+  color: #d14836;
+}
+.icon-telegram1:before {
+  content: "\e902";
+  color: #2ca5e0;
+}
+.icon-facebook:before {
+  content: "\e900";
+  color: #1877f2;
+}
+.icon-twitter:before {
+  content: "\e901";
+  color: #1da1f2;
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter1:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+
+/* 
+#CA9670
+#B56A49
+#A65F34
+#AB4623
+#511900
+*/

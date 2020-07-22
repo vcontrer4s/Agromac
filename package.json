@@ -1,0 +1,33 @@
+{
+  "name": "agromac",
+  "version": "1.0.0",
+  "description": "Software para el control productivo en gallinas Isa",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcontrer4s/Agromac.git"
+  },
+  "author": "Victor Contreras",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vcontrer4s/Agromac/issues"
+  },
+  "homepage": "https://github.com/vcontrer4s/Agromac#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "polka": "^0.5.2",
+    "sirv": "^1.0.1"
+  },
+  "devDependencies": {
+    "sapper": "^0.27.16",
+    "svelte": "^3.24.0",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.43.0"
+  }
+}
